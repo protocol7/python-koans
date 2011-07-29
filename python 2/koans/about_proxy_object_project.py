@@ -20,8 +20,6 @@ from runner.koan import *
 
 class Proxy(object):
     def __init__(self, target_object):
-        # WRITE CODE HERE
-
         self._messages = []
         
         #initialize '_obj' attribute last. Trust me on this!
